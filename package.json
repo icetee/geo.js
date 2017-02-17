@@ -1,0 +1,43 @@
+{
+  "name": "geo.js",
+  "version": "0.1.0",
+  "description": "Simple Geolocation API",
+  "main": "./src/main.js",
+  "scripts": {
+    "start": "gulp",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/icetee/geo.js.git"
+  },
+  "keywords": [
+    "geo",
+    "location",
+    "w3c",
+    "simple",
+    "api",
+    "easy"
+  ],
+  "author": "Tamás András Horváth <htomy92@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/icetee/geo.js/issues"
+  },
+  "homepage": "https://github.com/icetee/geo.js#readme",
+  "devDependencies": {
+    "babel-plugin-transform-jscript": "^6.22.0",
+    "babel-plugin-transform-object-assign": "^6.22.0",
+    "babel-polyfill": "^6.23.0",
+    "babel-preset-es2015": "^6.22.0",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-header": "^1.8.8",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^2.0.1"
+  },
+  "dependencies": {
+    "jquery": "^1.12.4"
+  }
+}
